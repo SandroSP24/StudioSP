@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Triodion-Regular';
+  src: url(./Triodion-Regular.eot);
+  src: url(./Triodion-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Triodion-Regular.woff) format('woff'),
+       url(./Triodion-Regular.woff2) format('woff2'),
+       url(./Triodion-Regular.ttf) format('truetype'),
+       url(./Triodion-Regular.otf) format('otf'),
+       url(./Triodion-Regular.svg#Triodion-Regular) format('svg');
+}
