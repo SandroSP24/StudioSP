@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        div {
+            width: 700px;
+        }
+    </style>
+<body>
+    <div style="overflow: hidden;">
+        <form style="float: left;" action="">
+            <fieldset>
+                <legend>Строка поиска</legend>
+                <input style=" width: 100px;" maxlength="10" type="text">
+                <button type="button">Искать</button><br>
+                <input type="radio" name="answer" checked value="1">на сайте
+                <input type="radio" name="answer" value="2">в google
+            </fieldset>
+        </form>
+        <form style="float: right;" action="">
+            <fieldset>
+                <legend>Строка поиска</legend>
+                <label>
+                    <input style=" width: 100px;" maxlength="10" type="text">*
+                </label>
+                <button type="button">Искать</button><br>
+                <input type="radio" name="answer" value="1">на сайте
+                <input type="radio" name="answer" checked value="2">в google
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Авторизируйтесь</legend>
+                <label>
+                    <input style=" margin-bottom: 5px;" type="text">*
+                </label>Логин<br>
+                <label>
+                    <input type="text">*
+                </label>Пароль<br>
+                <input type="checkbox" name="big" value="YES">Оставаться в системе<br>
+                <button type="button">Войти</button>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Как вам?</legend>
+                <input type="radio" name="answer" checked value="1">ничего<br>
+                <input type="radio" name="answer" value="2">неплохо<br>
+                <input type="radio" name="answer" value="3">хорошо<br>
+                <input type="radio" name="answer" value="4">супер<br>
+                <button type="button">Войти</button>
+                <input type="hidden">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+td::before {
+counter-increment: list ;
+content: counter(list) ;
+
+}
+
+td::after {
+    counter-increment: list 1;
+    content: counter(list) ;
+}
