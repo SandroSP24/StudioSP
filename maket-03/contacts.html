@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Website</title>
+    <link rel="shortcut icon" href="img/header-icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="media_css/tablet.css">
+    <link rel="stylesheet" href="media_css/mobile.css">
+</head>
+
+<body>
+    <header class="container">
+        <span class="logo">logo</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="news.html">News</a></li>
+                <li class="btn"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container hero-contacts">
+        <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <img src="img/hero-contacts_global.png" alt="">
+        <ul>
+            <li>
+                <span>Follow us</span>
+                <div>
+                    <a href="#"><img src="img/contacts-messenger01.svg" alt=""></a>
+                    <a href="#"><img src="img/contacts-messenger02.svg" alt=""></a>
+                    <a href="#"><img src="img/contacts-messenger03.svg" alt=""></a>
+                    <a href="#"><img src="img/contacts-messenger04.svg" alt=""></a>
+                </div>
+            </li>
+            <li>
+                <img src="img/hero-contacts_stick.svg" alt="">
+            </li>
+            <li>
+                <img src="img/hero-contacts_phone.svg" alt="">
+                <a href="tel:+94444455556">+94 4444 5555 6</a>
+            </li>
+            <li>
+                <img src="img/hero-contacts_stick.svg" alt="">
+            </li>
+            <li>
+                <img src="img/hero-contacts_gps.svg" alt="">
+                <p>but also the leap into electronic <br>
+                    typesetting</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="feedback">
+        <div class="container response">
+            <h2>Say hello</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing .</p>
+
+            <form>
+                <div class="inline">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <label>Email Address</label>
+                <input type="email" class="one-line">
+
+                <label>Message</label>
+                <textarea class="one-line"></textarea>
+
+                <button type="button">Get in touch</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="container email">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <div class="block">
+                <div>
+                    <h4>Stay in the loop</h4>
+                    <p>Subscribe to receive the latest news and updates TDA
+                        We promise not to spam you!</p>
+                </div>
+                <div>
+                    <input type="email" id="emailField" placeholder="Enter email address">
+                    <button onclick="checkEmail()">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="blocks container">
+
+            <div>
+                <span class="logo">logo</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>@Logo</p>
+            </div>
+
+            <div>
+                <h4>About us</h4>
+                <ul>
+                    <a href="#"><li>Zeux</li></a>
+                    <a href="#"><li>Portfolio</li></a>
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Contact us</li></a>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact us</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <a href="#">+908 89097 890</a>
+            </div>
+
+            <div class="messenger">
+                <a href="#"><img src="img/messenger01.svg" alt=""></a>
+                <a href="#"><img src="img/messenger02.svg" alt=""></a>
+                <a href="#"><img src="img/messenger03.svg" alt=""></a>
+                <a href="#"><img src="img/messenger04.svg" alt=""></a>
+            </div>
+
+        </div>
+        <hr>
+        <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+    </footer>
+
+    <script>
+        function checkEmail() {
+            let email = document.querySelector('#emailField').value;
+            if (!email.includes('@')) alert('Нет символа @');
+            else if (!email.includes('.')) alert('Нет символа .');
+            else alert('Все отлично!');
+        }
+    </script>
+</body>
+
+</html>
